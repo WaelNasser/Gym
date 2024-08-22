@@ -18,7 +18,7 @@ const Login = () => {
   }
   
   return (
-    <div className="h-[100vh] bg-hero object-contain bg-center bg-no-repeat bg-cover">
+    <div className="h-[130vh] bg-hero object-contain bg-center bg-no-repeat bg-cover">
       <div className="bg-black/50 w-full h-full flex justify-center items-center text-white">
         <motion.div
           variants={fadeIn("down", 0.6)}
