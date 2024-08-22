@@ -93,7 +93,7 @@ const Blogs = () => {
             {dataBlog.map((blog, index) => {
               return (
                 <SwiperSlide key={index}>
-                  <div className="flex flex-col justify-center">
+                  <div className="flex flex-col justify-center items-center">
                     <Image
                       className="mb-5"
                       src={blog.src}
